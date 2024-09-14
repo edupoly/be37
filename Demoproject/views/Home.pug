@@ -1,0 +1,10 @@
+html
+    head 
+        title idi ok pug 
+    body  
+        h1 All Products
+        a(href="/addProduct") Add Product 
+        ul
+            each product in products
+                li= product.title
+                a(href="/details/"+product.id) viewmore

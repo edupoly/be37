@@ -1,0 +1,1 @@
+db.unicorns.find({$or:[{gender:'f'},{vampires:{$lt:100}}]})

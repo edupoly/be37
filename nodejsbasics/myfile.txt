@@ -1,0 +1,1 @@
+Use care when using searchParams to modify the URL because, per the WHATWG specification, the URLSearchParams object uses different rules to determine which characters to percent-encode. For instance, the URL object will not percent encode the ASCII t
